@@ -55,7 +55,7 @@ canale = {}
 subprocess.call('unset DISPLAY ; sopcast-player', shell=True)
 try :
 
-    website = urllib2.urlopen('http://www.sports-tv.eu/index3.htm')
+    website = urllib2.urlopen('http://www.sports-tv.ro/index3.htm')
     website_html = website.read()
     #print website_html
     # alt="Titlu" onclick="OnPlay('sop://gogogog', 'Foo')"
